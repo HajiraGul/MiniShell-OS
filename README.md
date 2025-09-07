@@ -31,6 +31,45 @@ This "IIUI Mini Shell" project is a Python-based command-line interface designed
 -   **Signal Handling**: Gracefully handles interrupt signals (e.g., Ctrl+C) and End-Of-File (EOF) conditions.
 
 ---
+## Quick Start
+
+### Prerequisites
+* Python 3.6 or higher installed on your system
+* No additional dependencies required (uses only Python standard library)
+
+### Installation & Running
+
+#### Method 1: Direct Python Execution
+1. Clone or download this repository
+2. Navigate to the project directory
+3. Run the shell:
+   ```bash
+   python mini_shell.py
+   ```
+
+#### Method 2: Using Executable (Windows)
+1. Download `mini_shell.exe` from the releases page
+2. Double-click to run or execute from command prompt:
+   ```cmd
+   mini_shell.exe
+   ```
+
+#### Method 3: Using Executable (Linux/macOS)
+1. Download the executable from the releases page
+2. Make it executable and run:
+   ```bash
+   chmod +x mini_shell
+   ./mini_shell
+   ```
+
+### First Run
+When you start the shell, you'll see:
+```bash
+Welcome to IIUI-Shell. Type 'help' for assistance.
+IIUI_MiniShell>
+```
+### Type `help` to see all available commands, or start using the shell immediately!
+---
 
 ### Built-in Commands
 
@@ -74,11 +113,6 @@ IIUI_MiniShell> whoami
 IIUI_MiniShell> date
 IIUI_MiniShell> mkdir newdir
 ```
-
-## Requirements
-
-* Python 3.6+
-* No external dependencies (uses only standard library)
 
 ---
 ## File Structure
